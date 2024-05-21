@@ -121,7 +121,7 @@ int main(void)
         OLED_ShowString(20, 0, "2014/05/01", 16);
         OLED_ShowString(0, 2, "ASCII:", 16);
         OLED_ShowString(63, 2, "CODE:", 16);
-        OLED_ShowChar(48, 2, t, 16);//ÏÔÊ¾ASCII×Ö·û
+        OLED_ShowChar(48, 2, t, 16);
         t++;
         if (t > '~')t = ' ';
         OLED_ShowNum(103, 2, t, 3, 16);
